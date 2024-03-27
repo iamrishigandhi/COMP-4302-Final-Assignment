@@ -10,10 +10,15 @@ To run the code, follow these steps:
 
 2. **Install Dependencies:**
 
-Node.js, three.js and npm is required to run the program.
+   Node.js, three.js and npm is required to run the program.
 
     [Node.js can be downloaded from here.](https://nodejs.org/en/download)
-    to download the latest version of npm, on the command line, run the following command:
+
+   To download the latest version of npm, on the command line, run the following command:
+   
+   ```bash
+   npm install -g npm
+   ```
 
     Ensure you have Node.js and npm installed on your system. Then, install the dependencies using:
 
