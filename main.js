@@ -146,7 +146,7 @@ const ground = new Box({
         y: -2,
         z: 0,
     },
-    texture: groundTexture,
+    texture: groundTexture
 });
 
 ground.receiveShadow = true;
@@ -301,11 +301,9 @@ function updateParticles() {
         const centerZ = cube.position.y;
 
         // Calculate new position in circular motion around the center of rotation
-        const x =
-            centerX + radius * Math.cos(angle + frames * angularSpeed) + 1.25;
+        const x = centerX + radius * Math.cos(angle + frames * angularSpeed) + 1.25;
         const y = centerY;
-        const z =
-            centerZ + radius * Math.sin(angle + frames * angularSpeed) + 1.25;
+        const z = centerZ + radius * Math.sin(angle + frames * angularSpeed) + 1.25;
 
         // Set particle position
         particle.position.set(x, y, z);
