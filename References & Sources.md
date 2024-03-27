@@ -1,4 +1,4 @@
-### References & Sources
+# References & Sources
 
 ChatGPT - https://chat.openai.com/
 
