@@ -1,8 +1,16 @@
+# COMP 4302 Final Assignment
+
+## Rishi Gandhi
+
+## Student ID: 202014908
+
 ### What option I decided to do:
 A one or two player game or a 3D implementation of a basic 2D arcade game in
 a retro-style implementation, but that displays elements that are very specific to,
 or customized to the members of the group.
 
-### Grade aiming for: 100%
+# Total Grade Aimed For: 100%
 
-Pressing the "I" key will toggle the road light on and off.
+Please read [Installation.md](https://github.com/iamrishigandhi/COMP-4302-Assignment-4/blob/main/Installation.md) for instructions if you have trouble running the code.
+
+Here are the [References & Sources](https://github.com/iamrishigandhi/COMP-4302-Assignment-4/blob/main/References%20%26%20Sources.md)
