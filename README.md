@@ -5,9 +5,7 @@
 ## Student ID: 202014908
 
 ### What option I decided to do:
-A one or two player game or a 3D implementation of a basic 2D arcade game in
-a retro-style implementation, but that displays elements that are very specific to,
-or customized to the members of the group.
+A one or two player game or a 3D implementation of a basic 2D arcade game in a retro-style implementation, but that displays elements that are very specific to, or customized to the members of the group.
 
 # Total Grade Aimed For: 100%
 
