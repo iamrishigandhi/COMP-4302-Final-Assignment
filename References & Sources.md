@@ -8,4 +8,6 @@ dat.gui - https://github.com/dataarts/dat.gui
 
 Orbit Controls - https://threejs.org/docs/#examples/en/controls/OrbitControls
 
+Code Reference - https://github.com/chriscourses/threejs-game
+
 Textures - https://www.freepik.com/
