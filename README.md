@@ -38,7 +38,7 @@ A one or two player game or a 3D implementation of a basic 2D arcade game in a r
 
 ### 6. Video Requirement:
    - Video requirement: Produce a 5-minute video that is designed to be distributed to the public, where you explain how to achieve the features of your assignment. You should even feel free to post your submission directly on a free-access video platform and provide the link. The winners of the competition (up to three groups may be chosen) will earn 10% extra points, will be featured in class, and will earn bragging rights.
-   - Here is the link to the [Youtube Video]() for my submission.
+   - Here is the link to the [Youtube Video](https://youtu.be/XEJ6q7InGsU) for my submission.
 
 
 # Total Grade Aimed For: 100%
