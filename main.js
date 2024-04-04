@@ -2,6 +2,7 @@ import * as THREE from "three";
 import { OrbitControls } from "three/addons/controls/OrbitControls.js";
 import * as dat from "dat.gui";
 
+// Set up the scene, camera, and renderer
 const scene = new THREE.Scene();
 const camera = new THREE.PerspectiveCamera(
     75,
@@ -19,8 +20,10 @@ renderer.shadowMap.enabled = true;
 renderer.setSize(window.innerWidth, window.innerHeight);
 document.body.appendChild(renderer.domElement);
 
+// Add orbit controls for camera manipulation
 const controls = new OrbitControls(camera, renderer.domElement);
 
+// Define a Box class extending THREE.Mesh for creating box objects
 class Box extends THREE.Mesh {
     constructor({
         width,
@@ -40,6 +43,8 @@ class Box extends THREE.Mesh {
         zAcceleration = false,
         texture = null, // Add texture parameter
     }) {
+
+        // Create material based on whether a texture is provided
         let material;
         if (texture) {
             material = new THREE.MeshStandardMaterial({ map: texture });
@@ -47,8 +52,11 @@ class Box extends THREE.Mesh {
             material = new THREE.MeshStandardMaterial({ color });
         }
 
+        // Call parent constructor with BoxGeometry and material
         super(new THREE.BoxGeometry(width, height, depth), material);
 
+
+        // Set properties of the box
         this.width = width;
         this.height = height;
         this.depth = depth;
@@ -285,6 +293,7 @@ for (let i = 0; i < numParticles; i++) {
     particles.push(particle); // Store particle for updates
 }
 
+// Function to update particle positions relative to main cube
 function updateParticles() {
     const radius = 1; // Radius of the circle
     const angularSpeed = 0.025; // Angular speed
@@ -466,6 +475,7 @@ cameraFolder.add(camera.position, "z", -10, 10).onChange(() => {
     );
 });
 
+// Open GUI folders by default
 cameraFolder.open();
 lightFolder.open();
 lightPositionFolder.open();
